@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class VideoService {
 
-    private static final String FORMAT="classpath:static/video/%s.mp4";
+    private static final String FORMAT="classpath:static/video/%s";
 
     @Autowired
     private ResourceLoader resourceLoader;
